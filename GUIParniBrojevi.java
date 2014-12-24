@@ -13,9 +13,9 @@ public class GUIParniBrojevi {
 		JTextField text1 = new JTextField(5);
 		JTextArea text2 = new JTextArea( 5, 10);
 		text2.setLineWrap(true);
-		JFrame window = new JFrame();
+		JFrame window = new JFrame("Parni brojevi");
 		JPanel panel = new JPanel();
-		JButton button = new JButton("Parni brojevi");
+		JButton button = new JButton("Ispiši brojeve");
 		button.addActionListener(new ActionListener()
 		{
 
